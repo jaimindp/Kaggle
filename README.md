@@ -9,7 +9,7 @@ The analysis performed:
 2. Correlation between musical genres
 3. Predict of age using linear regression
 4. Prediction of gender using binary Logistic Regression and Support Vector Machine algorithms
-5. Predict of survey categorical responses using categorical logistic regression
+5. Prediction of survey categorical responses using categorical logistic regression
 
 
 ## Results
