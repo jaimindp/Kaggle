@@ -11,12 +11,15 @@ The analysis performed:
 4. Prediction of gender using binary Logistic Regression and Support Vector Machine algorithms
 5. Predict of survey categorical responses using categorical logistic regression
 
+
 ## Results
 
-1. 
-Exploratory Dataset Analysis initially gives a view the survey questions and responses. The large majority of responses are rated on a scale of 1-5, this includes a range of subject such as music, fears, lifestyle, moods, spending habits and more. Other responses are categorical relating things such as gender, if they're from a village or town, education level, amount of internet usage a day and so on.
+The correlation of height and weight was an interesting study, notably how splitting by gender significantly affected the correlation coefficient.
 
-2.
-An investigation into the correlation of musical tastes find interesting results and this is visuallly represented. 
+An analysis of Music taste allowed positive and negative correlations between music genres to be visualised. In addition, variation of responses with increasing age allows phenomena such as engagement with elections as of the voting age to be observed.
 
-The dataset is then cleaned for machine learning, dealing by imputing missing values. Machine learning is used next to predict things about the respondents. Binary Logistic regression to predict gender is compared to the performance of SVM. Then multiclass logistic regression is done on categorical features and a prediction accuracy is obtained.
+Machine learning was used to make predictions by dividing the data up into training and test sets. Linear regression gave a reasonably good prediction of age. Both Binary Logistic Regression and SVM to predict gender was very accurate.
+
+Multiclass classification through Logistic regression proved to be less successful. This was attributed to the nature of the survey questions requiring vague and subjective responses.
+
+There are many interesting features to this dataset and I have only begun to scratch the surface of what can be analysed. It is interesting to see how inferences can be made relating to individuals who took the survey. The predictions which are made using Machine Learning are powerful and this goes to show how simple data collection can be such a powerful tool. An interesting future study may be to investigate people's spending habits and what factors influence them most or look at what the largest factors influencing belief in God are.
