@@ -16,9 +16,13 @@ The analysis performed:
 
 The correlation of height and weight was an interesting study, notably how splitting by gender significantly affected the correlation coefficient.
 
+![Image description](https://github.com/jaimindp/Kaggle-young-people-survey/blob/master/figures/music_corr.png)
+
 An analysis of Music taste allowed positive and negative correlations between music genres to be visualised. In addition, variation of responses with increasing age allows phenomena such as engagement with elections as of the voting age to be observed.
 
 Machine learning was used to make predictions by dividing the data up into training and test sets. Linear regression gave a reasonably good prediction of age. Both Binary Logistic Regression and SVM to predict gender was very accurate.
+
+![Image description](https://github.com/jaimindp/Kaggle-young-people-survey/blob/master/figures/roc.png)
 
 Multiclass classification through Logistic regression proved to be less successful. This was attributed to the nature of the survey questions requiring vague and subjective responses.
 
