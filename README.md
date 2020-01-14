@@ -1,6 +1,6 @@
 # Young People Survey Dataset Analysis
 
-Jupyter Notebook containing an analysis of the kaggle dataset young people survey using Python.
+Jupyter Notebook containing an analysis of the Kaggle dataset 'young people survey' using Python.
 
 The goal is to explore at the survey response data to uncover interesting phenomena and to see if accurate predictions can be made about survey respondents based on their questionare answers. To do this, the data is explored, visualised and statistical measures obtained. Machine learning algorithms are used to make predictions on selected variables to see the accuracy with which factors about respondents can be predicted.
 
